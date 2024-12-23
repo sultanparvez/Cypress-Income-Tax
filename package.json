@@ -1,0 +1,23 @@
+{
+  "name": "advanced-ui",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress run --headed --browser chrome"
+  },
+  "author": "parvez",
+  "license": "ISC",
+  "devDependencies": {
+    "@reportportal/agent-js-cypress": "^5.1.5",
+    "cypress": "^13.3.1",
+    "cypress-cucumber-preprocessor": "^4.3.1",
+    "cypress-mochawesome-reporter": "^3.2.2",
+    "cypress-multi-reporters": "^1.6.4",
+    "mochawesome": "^7.1.3",
+    "multiple-cucumber-html-reporter": "^1.21.6"
+  },
+  "dependencies": {
+    "jsonpath": "^1.1.1"
+  }
+}
